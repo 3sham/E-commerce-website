@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <!-- IE Combitability meta -->    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- first mobile meta -->
+        <title>Login</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/login.css">
+        <!--[if lt IE 9]>-->
+          <script src="js/html5shiv.min.js"></script>
+          <script src="js/respond.min.js"></script>
+        <!--[endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="" id="loginModal">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3>Have an Account ?</h3>
+                      </div>
+                      <div class="modal-body">
+                        <div class="well">
+                          <ul class="nav nav-tabs">
+                            <li class="active"><a href="#login" data-toggle="tab">Login</a></li>
+                            <li><a href="#create" data-toggle="tab">Create Account</a></li>
+                          </ul>
+                          <div id="myTabContent" class="tab-content">
+                            <div class="tab-pane active in" id="login">
+                              <form class="form-horizontal" action='' method="POST">
+                                <fieldset>
+                                     
+                                  <div class="control-group">
+                                    <!-- Username -->
+                                    <label class="control-label"  for="username">Username</label>
+                                    <div class="controls">
+                                      <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                                    </div>
+                                  </div>
+
+                                  <div class="control-group">
+                                    <!-- Password-->
+                                    <label class="control-label" for="password">Password</label>
+                                    <div class="controls">
+                                      <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+                                    </div>
+                                  </div>
+
+
+                                  <div class="control-group">
+                                    <!-- Button -->
+                                    <div class="controls">
+                                      <button class="btn btn-success">Login</button>
+                                    </div>
+                                  </div>
+                                </fieldset>
+                              </form>                
+                            </div>
+                            <div class="tab-pane fade" id="create">
+                              <form class="form-horizontal" action='' method="POST">
+                                  <fieldset>
+                                    <label>Username</label><br>
+                                    <input type="text" value="" class="input-xlarge"><br>
+                                    <label>Email</label><br>
+                                    <input type="text" value="" class="input-xlarge"><br>
+                                    <label>Password</label><br>
+                                    <input type="text" value="" class="input-xlarge"><br>
+                                    <label>Confirm Password</label><br>
+                                    <input type="text" value="" class="input-xlarge"><br><br>
+                                  </fieldset>
+                                    <div>
+                                    <button class="btn btn-primary">Create Account</button>
+                                    </div>
+                                </form>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>    
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/file.js"></script>
+    </body>
+</html>

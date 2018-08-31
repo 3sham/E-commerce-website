@@ -1,0 +1,52 @@
+body
+{
+    background: url(../photo/back.jpg) no-repeat center;
+    
+}
+.well
+{
+    width: 500px;
+    height: 525px;
+    background-color:rgba(93,54,85,.8);
+    border: 1px solid #330052
+}
+#legend 
+{
+    margin-top: 20;
+    
+}
+.modal-header h3
+{
+    color:#330052;
+    font-weight: bold;
+    font-family: cursive
+}
+.modal-header
+{
+    border-bottom: 1px solid #330052
+}
+.nav-tabs
+{
+     border-bottom: 1px solid #967f7f
+}
+ a
+{
+    color:  #330052;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form-horizontal
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 45px;    
+}
+.controls
+{
+    margin-top: 25px;
+}
+label
+{
+    color: azure
+}
+

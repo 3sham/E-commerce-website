@@ -1,0 +1,263 @@
+body
+{
+    overflow: hidden;
+}
+/* start navbar */
+.navbar-inverse
+{
+    background-color: #4a4444;
+    margin-bottom: 0;
+    border-radius: 0
+}
+.navbar-form .form-control
+{
+  width: 400px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand brn
+{
+    margin-left: 200px;
+    font-family:cursive;
+    font-size: 30px;
+    color:cadetblue
+}
+/* end navbar */
+
+/* start section background */
+.back
+{
+    
+    height:600;
+    background: url(../photo/back.jpg) no-repeat center center;
+    margin-top: 50px;
+}
+.non
+{
+    padding-top: 25px;
+    font-family:cursive;
+    margin-right: 200px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-nav > li > a 
+{
+    color:rgba(77,8,117,.8);
+}
+.navbar-nav > li > a:hover
+{
+    background:none;
+    color: antiquewhite;
+}
+/* end section background */
+
+/* start testimonial */
+
+.testimonials
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+.testimonials h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonials span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: cadetblue;
+}
+.testimonials .carousel-inner
+{
+    min-height: 160px;
+    
+}
+.testimonials .carousel-indicators 
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+   
+}
+.testimonials .carousel-indicators li
+{
+    text-indent: 0;
+    width:  150px;
+    height: 150px;
+    opacity: .5;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.testimonials .carousel-indicators li.active
+{
+     opacity: 1;
+     border: 2px solid cadetblue;
+     width:  300px;
+     height: 300px;
+}
+.testimonials .carousel-indicators li img
+{
+    max-width: 100%;
+}
+
+/* end testimonial*/
+
+/* start section price table */
+.price h1
+{
+    margin-bottom: 40px;
+}
+.price
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EEE;
+}
+
+.price_box
+{
+    background-color: #FFF;
+    padding: 5px;
+    border: 1px solid #DDD;
+    margin-bottom: 25px;
+    height: 500px;
+    width: 300px;
+
+}
+
+.price .price_box img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    line-height: 100px;
+    
+}
+.price .price_box p
+{
+    margin-top: 15px;
+}
+
+/* end section price table */
+/* start footer */
+.footer
+{
+    height: 190px;
+    background-color: #4a4444;
+    padding: 25px;
+}
+.foot li a
+{
+    color:#5f9ea0;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:cursive;
+}
+.foot li a:hover
+{
+    color:dodgerblue
+}
+.foot
+{
+    margin-top: 15px;
+    text-align: center;
+}
+.foot li
+{
+    position: relative;
+    display: inline;
+    list-style-type: disc;
+    margin-left: 25px;
+    
+}
+
+.foots li
+{
+    margin-left: 15px;
+}
+.count
+{
+    text-align: center;
+    margin-top: 50px;
+    color:#5f9ea0;
+}
+/*end footer */
+/* loading section*/
+.overlay
+{
+    background: #222;
+    color:cadetblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    text-align: center;
+    padding-top: 150px;
+}
+.sk-cube-grid {
+  width: 80px;
+  height: 80px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color:cadetblue;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+/* loading section*/
